@@ -24,3 +24,20 @@ switch (lang) {
   default:
     console.log('error')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+let namePerson = prompt('Введите имя:')
+let result = (namePerson == 'Артем') ? console.log('директор') :
+  (namePerson == 'Максим') ? console.log('преподаватель') :
+  console.log('студент');
