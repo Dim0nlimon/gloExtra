@@ -14,3 +14,13 @@ if (lang == 'ru') {
 }
 
 
+switch (lang) {
+  case "ru":
+    console.log(dayArr[0]);
+    break;
+  case "en":
+    console.log(dayArr[1]);
+    break;
+  default:
+    console.log('error')
+}
