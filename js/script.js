@@ -26,7 +26,11 @@ switch (lang) {
 }
 
 
-
+let dayObj = {
+  ru: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС'],
+  en: ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'],
+};
+console.log(dayObj[lang]);
 
 
 
